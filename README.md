@@ -1,25 +1,75 @@
-# Tic-Tac-Toe Project
+# Custom Tic-Tac-Toe Game 🎮
 
 ## English
-This is a Tic-Tac-Toe game made with Python and Tkinter.
 
-Current features:
-- board size selection
-- win length selection
-- two-player mode
-- AI opponent
+### Description
+This project is a customizable Tic-Tac-Toe game built with Python and Tkinter.
 
-The project is still in progress.
+The player can:
+- enter player names
+- choose the board size
+- choose the win length
+- play against another player or against the computer
+- choose AI difficulty: Easy, Medium or Hard
+
+### Features
+- Adjustable board size (3–10)
+- Adjustable win condition
+- Two-player mode
+- Optional AI opponent
+- Difficulty buttons
+- Score tracking
+- Winning row highlight
+- Draw detection
+- SQLite database support for saving wins
+
+### Technologies
+- Python
+- Tkinter
+- GitHub
+- SQLite
+
+### How to run
+Run the game with:
+
+```bash
+python main.py
+```
 
 ---
 
 ## Suomi
-Tämä on Pythonilla ja Tkinterillä tehty ristinollapeli.
 
-Tämänhetkiset ominaisuudet:
-- pelilaudan koon valinta
-- voittopituuden valinta
-- kahden pelaajan tila
-- AI-vastustaja
+### Kuvaus
+Tämä projekti on muokattava ristinollapeli, joka on tehty Pythonilla ja Tkinterillä.
 
-Projekti on vielä kesken.
+Pelaaja voi:
+- syöttää pelaajien nimet
+- valita pelilaudan koon
+- valita voittopituuden
+- pelata toista pelaajaa vastaan tai tietokonetta vastaan
+- valita AI:n vaikeustason: Helppo, Keskitaso tai Vaikea
+
+### Ominaisuudet
+- Muokattava pelilaudan koko (3–10)
+- Mahdollisuus valita voittoon tarvittavien merkkien määrä
+- Kahden pelaajan peli
+- Mahdollisuus pelata tietokonetta vastaan
+- Vaikeustason valintanapit
+- Pisteiden seuranta
+- Voittorivin korostus
+- Tasapelin tunnistus
+- SQLite-tietokanta voittojen tallennukseen
+
+### Teknologiat
+- Python
+- Tkinter
+- GitHub
+- SQLite
+
+### Käynnistys
+Käynnistä peli komennolla:
+
+```bash
+python main.py
+```
