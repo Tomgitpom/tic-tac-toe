@@ -12,14 +12,16 @@ The goal of this project is to create a customizable Tic-Tac-Toe game using Pyth
 - Add score tracking
 - Add optional AI opponent
 - Add difficulty levels
+- Save wins in a database
 
 ### Technologies
 - Python
 - Tkinter
 - GitHub
+- SQLite
 
 ### Work process
-The project started as a basic Tic-Tac-Toe game.  
+The project started as a basic Tic-Tac-Toe game.
 After that, more features were added:
 - custom board size
 - custom win length
@@ -27,11 +29,12 @@ After that, more features were added:
 - AI opponent
 - difficulty buttons
 - win highlight
+- database support
 
 ### Future improvements
 - stronger AI
-- saving scores to database
-- cleaner user interface
+- better user interface
+- more advanced testing
 
 ---
 
@@ -47,14 +50,16 @@ Tämän projektin tavoitteena on tehdä muokattava ristinollapeli Pythonilla ja 
 - lisätä pisteiden seuranta
 - lisätä mahdollisuus pelata AI:ta vastaan
 - lisätä vaikeustasot
+- tallentaa voitot tietokantaan
 
 ### Teknologiat
 - Python
 - Tkinter
 - GitHub
+- SQLite
 
 ### Työprosessi
-Projekti alkoi tavallisena ristinollapelinä.  
+Projekti alkoi tavallisena ristinollapelinä.
 Sen jälkeen peliin lisättiin uusia ominaisuuksia:
 - pelilaudan koko
 - voittopituus
@@ -62,8 +67,9 @@ Sen jälkeen peliin lisättiin uusia ominaisuuksia:
 - AI-vastustaja
 - vaikeustason valintanapit
 - voittorivin korostus
+- tietokanta
 
 ### Jatkokehitys
 - parempi AI
-- pisteiden tallennus tietokantaan
-- siistimpi käyttöliittymä
+- parempi käyttöliittymä
+- laajempi testaus
