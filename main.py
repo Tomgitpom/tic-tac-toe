@@ -184,7 +184,7 @@ def check_winner(r, c):
                 break
 
         if len(cells) >= voitteen_pituus:
-            winning_cells = cells[:voitteen_pituus]
+            winning_cells = cells
             return True
 
     return False
